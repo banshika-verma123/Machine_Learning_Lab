@@ -1,4 +1,4 @@
-str = "My name is Shashwat"
+str = "My name is Banshika Verma"
 
 l1 = str.split()   
 
@@ -13,4 +13,5 @@ for item in l2:
     if item[1] > len(max_str):
         max_str = item[0]
     
+
 print(f"Longest word: {max_str} with length {len(max_str)}")
